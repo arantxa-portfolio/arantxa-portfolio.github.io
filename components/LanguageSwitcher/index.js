@@ -1,4 +1,5 @@
 import { useI18n } from "@/hooks/useI18n";
+import { languageDetector } from "@/lib/languageDetector";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
@@ -10,7 +11,9 @@ export const LanguageSwitcher = () => {
 
   const changeLanguage = (newLang) => {
     if (newLang === lang) return;
-
+    if(languageDetector.cache) {
+      languageDetector.cache(newLang)
+    }
     const newPath = `/${newLang}${router.asPath.replace(`/${lang}`, "")}`;
     router.push(newPath);
     setIsOpen(false);
