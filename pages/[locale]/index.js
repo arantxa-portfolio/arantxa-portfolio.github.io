@@ -9,9 +9,6 @@ export default function Home() {
       <div className="banner" />
       <section>
         <h2>{t("illustrations")}</h2>
-        <LanguageSwitcher locale={"pt"}/>
-        <LanguageSwitcher locale={"es"}/>
-        <LanguageSwitcher locale={"en"}/>
       </section>
       
     </>

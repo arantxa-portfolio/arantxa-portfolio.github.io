@@ -2,6 +2,7 @@ import { Link } from "../Link";
 import styles from "./Navbar.module.scss";
 import { useRouter } from "next/router";
 import { useI18n } from "@/hooks/useI18n";
+import { LanguageSwitcher } from "../LanguageSwitcher";
 
 export function Navbar() {
   const router = useRouter();
@@ -16,6 +17,7 @@ export function Navbar() {
     <header className={styles.navbar}>
       <div className={styles.brand}>
         <h1>Arântia</h1>
+        <LanguageSwitcher />
       </div>
       <nav className={styles.navlinks}>
         <li>

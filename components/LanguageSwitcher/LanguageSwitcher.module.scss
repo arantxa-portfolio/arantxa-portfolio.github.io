@@ -1,0 +1,31 @@
+.mainBtn {
+  padding: 8px 12px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.opened {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  padding: 8px;
+  z-index: 1000;
+}
+
+.langBtn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
