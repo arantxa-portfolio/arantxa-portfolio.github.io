@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[71],{2488:(_,n,e)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/[locale]/hqs",function(){return e(6932)}])},6932:(_,n,e)=>{"use strict";e.r(n),e.d(n,{default:()=>r});var u=e(7876);function r(){return(0,u.jsx)(u.Fragment,{})}}},_=>{var n=n=>_(_.s=n);_.O(0,[636,593,792],()=>n(2488)),_N_E=_.O()}]);

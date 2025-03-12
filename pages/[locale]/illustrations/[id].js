@@ -49,12 +49,12 @@ export default function IllustrationDetail({ item }) {
       <div className="illustration-detail">
         <div>
           <Link href="/">
-            <i class="bi bi-arrow-left-circle"></i> {t("back")}
+            <i className="bi bi-arrow-left-circle"></i> {t("back")}
           </Link>
           <h3>{item.title[lang]}</h3>
           <p>{item.description[lang]}.</p>
           <p className="time mt-md">
-            <i class="bi bi-clock"></i>{" "}
+            <i className="bi bi-clock"></i>{" "}
             {formatDistanceToNow(new Date(item.date), {
               addSuffix: false,
               locale: getDateLocale(lang),
