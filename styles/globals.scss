@@ -20,23 +20,87 @@ body {
   background-image: url("https://raw.githubusercontent.com/jose-almir/arantia-portfolio/refs/heads/main/public/banner.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.section-illustrations {
   position: relative;
 }
 
-// .banner::after {
-//   content: '';
-//   display: block;
-//   position: absolute;
-//   background-image: url("/wave.svg");
-//   background-repeat: no-repeat;
-//   bottom: -280px;
-//   width: 100%;
-//   height: 100%;
-// }
+.section-illustrations::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url("/wave.svg");
+    background-repeat: no-repeat;
+    top: -20px;
+    width: 100%;
+    height: 100%;
+}
+
+.section-content {
+  padding: 16px;
+  max-width: 920px;
+  margin: auto;
+}
+
+.section-gallery {
+  position: relative;
+  z-index: 999;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  img {
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
 
 .lang-switch-wrapper {
   position: absolute;
   right: 16px;
   top: 16px;
+}
 
+hr {
+  color: $primary-white;
+  opacity: 0.05;
+  border-width: 1px;
+}
+
+.illustration-container {
+  display: flex;
+  .illustration-image {
+    flex: 3;
+    img {
+      width: 100%;
+    }
+  }
+  .illustration-detail {
+    flex: 1;
+    color: $primary-white;
+    display: flex;
+    padding-top: 32px;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary-white;
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+.time {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .illustration-container {
+    flex-direction: column;
+  }
 }

@@ -9,7 +9,6 @@ export function Navbar() {
   const {t} = useI18n({});
 
   const isActive = (href) => {
-    console.log("href = ", href, router.pathname,router.pathname.endsWith(href));
     return router.pathname === href;
   };
 
@@ -34,7 +33,7 @@ export function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/sobre" className={isActive("/[locale]/sobre") ? styles.active : ""}>
+          <Link href="/about" className={isActive("/[locale]/about") ? styles.active : ""}>
             {t("about")}
           </Link>
         </li>

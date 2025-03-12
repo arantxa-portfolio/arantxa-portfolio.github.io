@@ -5,6 +5,9 @@
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  i {
+    font-weight: bold;
+  }
 }
 
 .opened {
@@ -29,3 +32,4 @@
   cursor: pointer;
   font-size: 14px;
 }
+

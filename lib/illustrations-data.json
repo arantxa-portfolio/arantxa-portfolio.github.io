@@ -1,0 +1,58 @@
+[
+  {
+    "title": {
+      "en": "Masked",
+      "pt": "Mascarados",
+      "es": "Enmascarados"
+    },
+    "description": {
+      "en": "Digitized illustration",
+      "pt": "Ilustração digitalizada",
+      "es": "Ilustración digitalizada"
+    },
+    "date": "2022-09-16",
+    "src": "/img1.jpg"
+  },
+  {
+    "title": {
+      "en": "Sweet Charity",
+      "pt": "Sweet Charity",
+      "es": "Sweet Charity"
+    },
+    "description": {
+      "en": "Digitized illustration",
+      "pt": "Ilustração digitalizada",
+      "es": "Ilustración digitalizada"
+    },
+    "date": "2022-10-04",
+    "src": "/img2.jpg"
+  },
+  {
+    "title": {
+      "en": "Fish",
+      "pt": "Peixe",
+      "es": "Pez"
+    },
+    "description": {
+      "en": "Digitized illustration",
+      "pt": "Ilustração digitalizada",
+      "es": "Ilustración digitalizada"
+    },
+    "date": "2023-01-26",
+    "src": "/img3.jpg"
+  },
+  {
+    "title": {
+      "en": "Drawing",
+      "pt": "Desenho",
+      "es": "diseño"
+    },
+    "description": {
+      "en": "Hand Drawing",
+      "pt": "Desenho à mão",
+      "es": "Bibujo a mano"
+    },
+    "date": "2023-08-21",
+    "src": "/img4.jpg"
+  }
+]
