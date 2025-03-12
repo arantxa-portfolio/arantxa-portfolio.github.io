@@ -11,7 +11,7 @@
       "es": "Ilustración digitalizada"
     },
     "date": "2022-09-16",
-    "src": "/img1.jpg"
+    "src": "/illustrations/img1.jpg"
   },
   {
     "title": {
@@ -25,7 +25,7 @@
       "es": "Ilustración digitalizada"
     },
     "date": "2022-10-04",
-    "src": "/img2.jpg"
+    "src": "/illustrations/img2.jpg"
   },
   {
     "title": {
@@ -39,7 +39,7 @@
       "es": "Ilustración digitalizada"
     },
     "date": "2023-01-26",
-    "src": "/img3.jpg"
+    "src": "/illustrations/img3.jpg"
   },
   {
     "title": {
@@ -53,6 +53,6 @@
       "es": "Bibujo a mano"
     },
     "date": "2023-08-21",
-    "src": "/img4.jpg"
+    "src": "/illustrations/img4.jpg"
   }
 ]

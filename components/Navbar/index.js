@@ -9,7 +9,7 @@ export function Navbar() {
   const {t} = useI18n({});
 
   const isActive = (href) => {
-    return router.pathname === href;
+    return router.pathname == href;
   };
 
   return (

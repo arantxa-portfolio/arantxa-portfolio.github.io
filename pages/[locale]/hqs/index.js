@@ -1,39 +1,48 @@
 import { Link } from "@/components/Link";
 import { useI18n } from "@/hooks/useI18n";
+import hqs from "@/lib/hqs-data.json";
 import Image from "next/image";
-import illustrations from "@/lib/illustrations-data.json";
 
 export function getStaticPaths() {
-  return { paths: ["/pt", "/en", "/es"], fallback: false };
+  return {
+    paths: [
+      { params: { locale: "pt" } },
+      { params: { locale: "en" } },
+      { params: { locale: "es" } },
+    ].map(({ params }) => ({
+      params: { locale: params.locale },
+    })),
+    fallback: false,
+  };
 }
 
 export async function getStaticProps() {
   return {
     props: {
-      illustrations,
+      hqs,
     },
   };
 }
 
-export default function Home({ illustrations }) {
+export default function HQs({ hqs }) {
   const { t, lang } = useI18n({});
 
   return (
     <>
       <div className="banner" />
-      <section className="section-illustrations">
+      <section className="section-hqs">
         <section className="section-content">
-          <h2>{t("illustrations")}</h2>
+          <h2>{t("hqs")}</h2>
           <div className="section-gallery">
-            {illustrations.map((il, idx) => (
-              <Link key={idx} href={`/illustrations/` + (idx + 1)}>
+            {hqs.map((hq, idx) => (
+              <Link key={idx} href={`/hqs/` + (idx + 1)}>
                 <Image
                   key={idx}
-                  src={il.src}
+                  src={hq.src[0]}
                   width={360}
                   height={360}
-                  title={il.title[lang]}
-                  alt={il.description[lang]}
+                  title={hq.title[lang]}
+                  alt={hq.description[lang]}
                 />
               </Link>
             ))}
