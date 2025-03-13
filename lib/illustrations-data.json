@@ -1,33 +1,21 @@
 [
   {
+    "id": "beco-medieval",
     "title": {
-      "en": "Masked",
-      "pt": "Mascarados",
-      "es": "Enmascarados"
+      "en": "Medieval Alley",
+      "pt": "Beco Medieval",
+      "es": "Callejón Medieval"
     },
     "description": {
-      "en": "Digitized illustration",
-      "pt": "Ilustração digitalizada",
-      "es": "Ilustración digitalizada"
+      "en": "My illustration that I made to participate in Inko's scholarship contest.",
+      "pt": "Minha ilustração que fiz para participar do concurso de bolsas do Inko.",
+      "es": "Mi ilustración la hice para participar en el concurso de becas Inko."
     },
-    "date": "2022-09-16",
-    "src": "/illustrations/img1.jpg"
+    "date": "2024-01-09",
+    "src": "/illustrations/img5.jpg"
   },
   {
-    "title": {
-      "en": "Sweet Charity",
-      "pt": "Sweet Charity",
-      "es": "Sweet Charity"
-    },
-    "description": {
-      "en": "Digitized illustration",
-      "pt": "Ilustração digitalizada",
-      "es": "Ilustración digitalizada"
-    },
-    "date": "2022-10-04",
-    "src": "/illustrations/img2.jpg"
-  },
-  {
+    "id": "fish",
     "title": {
       "en": "Fish",
       "pt": "Peixe",
@@ -42,17 +30,33 @@
     "src": "/illustrations/img3.jpg"
   },
   {
+    "id": "sweet-charity",
     "title": {
-      "en": "Drawing",
-      "pt": "Desenho",
-      "es": "diseño"
+      "en": "Sweet Charity",
+      "pt": "Sweet Charity",
+      "es": "Sweet Charity"
     },
     "description": {
-      "en": "Hand Drawing",
-      "pt": "Desenho à mão",
-      "es": "Bibujo a mano"
+      "en": "Digitized illustration",
+      "pt": "Ilustração digitalizada",
+      "es": "Ilustración digitalizada"
     },
-    "date": "2023-08-21",
-    "src": "/illustrations/img4.jpg"
+    "date": "2022-10-04",
+    "src": "/illustrations/img2.jpg"
+  },
+  {
+    "id": "mascarados",
+    "title": {
+      "en": "Masked",
+      "pt": "Mascarados",
+      "es": "Enmascarados"
+    },
+    "description": {
+      "en": "Digitized illustration",
+      "pt": "Ilustração digitalizada",
+      "es": "Ilustración digitalizada"
+    },
+    "date": "2022-09-16",
+    "src": "/illustrations/img1.jpg"
   }
 ]

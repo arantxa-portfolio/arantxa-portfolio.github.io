@@ -86,6 +86,7 @@ hr {
     flex: 3;
     img {
       width: 100%;
+      cursor: pointer;
     }
   }
   .illustration-detail,
@@ -93,11 +94,8 @@ hr {
     flex: 1;
     color: $primary-white;
     display: flex;
-    padding-top: 32px;
-    justify-content: center;
-  }
-  .hq-detail {
     padding: 32px;
+    justify-content: center;
   }
 
   a {

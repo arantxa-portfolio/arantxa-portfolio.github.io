@@ -1,5 +1,5 @@
-import { FC, useEffect, useState } from "react";
-import { NextRouter, useRouter } from "next/router";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import { getRouteRegex } from "next/dist/shared/lib/router/utils/route-regex";
 import { getClientBuildManifest } from "next/dist/client/route-loader";
 import { parseRelativeUrl } from "next/dist/shared/lib/router/utils/parse-relative-url";
@@ -83,9 +83,9 @@ const Custom404 = () => {
   return (
     <div className="fixed inset-0 flex justify-center items-center">
       <div className="flex flex-col gap-10">
-        <h1>Custom 404 - Page Not Found</h1>
+        <h1>Page Not Found</h1>
         <Link href="/">
-          <button>Go to Home Page</button>
+          <button>Home Page</button>
         </Link>
       </div>
     </div>
