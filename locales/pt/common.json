@@ -1,9 +1,14 @@
 {
     "illustrations": "Ilustrações",
-    "hqs": "Quadrinhos",
+    "hqs": "HQs",
     "about": "Sobre",
     "social_insta": "Visite meu perfil no instagram",
     "social_mail": "Entre em contato via email",
     "back": "Voltar",
-    "about_title": "Roteirista e Ilustradora"
+    "about_title": "Roteirista e Ilustradora",
+    "illustrations_bar": "Ilustrações | Arântia",
+    "hqs_bar": "Quadrinhos | Arântia",
+    "about_bar": "Sobre | Arântia",
+    "keywords": "arte, ilustração, roteiro",
+    "description": "Meu portfólio. Conheça meus trabalhos."
 }

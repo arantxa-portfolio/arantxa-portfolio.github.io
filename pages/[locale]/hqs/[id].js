@@ -1,6 +1,12 @@
 import { Link } from "@/components/Link";
 import hqs from "@/lib/hqs-data.json";
 import { useI18n } from "@/hooks/useI18n";
+import Seo from "@/components/Seo";
+
+const baseUrl =
+  process.env.NODE_ENV === "production"
+    ? "https://arantia.art"
+    : "http://localhost:3000";
 
 export async function getStaticPaths() {
   const locales = ["en", "pt", "es"];
@@ -30,6 +36,7 @@ export default function HQDetail({ item }) {
   const { t, lang } = useI18n({});
   return (
     <>
+    <Seo title={`${item.title[lang]} | ${t('hqs_bar')}`} description={item.description[lang]} image={`${baseUrl}${item.src[0]}`}/>
       <section className="hq-container">
         <div className="hq-image">
           {item.src.map((i, idx) => (

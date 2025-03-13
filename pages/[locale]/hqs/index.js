@@ -1,4 +1,5 @@
 import { Link } from "@/components/Link";
+import Seo from "@/components/Seo";
 import { useI18n } from "@/hooks/useI18n";
 import hqs from "@/lib/hqs-data.json";
 import Image from "next/image";
@@ -29,6 +30,7 @@ export default function HQs({ hqs }) {
 
   return (
     <>
+      <Seo title={t('hqs_bar')}/>
       <div className="banner" />
       <section className="section-hqs">
         <section className="section-content">

@@ -1,8 +1,14 @@
 import { Link } from "@/components/Link";
+import Seo from "@/components/Seo";
 import { useI18n } from "@/hooks/useI18n";
 import illustrations from "@/lib/illustrations-data.json";
 import { formatDistanceToNow } from "date-fns";
 import { ptBR, es, enUS } from "date-fns/locale";
+
+const baseUrl =
+  process.env.NODE_ENV === "production"
+    ? "https://arantia.art"
+    : "http://localhost:3000";
 
 function getDateLocale(currentLang) {
   if (currentLang === "es") {
@@ -42,6 +48,8 @@ export default function IllustrationDetail({ item }) {
   const { t, lang } = useI18n({});
 
   return (
+    <>
+    <Seo title={`${item.title[lang]} | ${t('illustrations_bar')}`} description={item.description[lang]} image={`${baseUrl}${item.src}`}/>
     <section className="illustration-container">
       <div className="illustration-image">
         <img src={item.src} />
@@ -63,5 +71,6 @@ export default function IllustrationDetail({ item }) {
         </div>
       </div>
     </section>
+    </>
   );
 }

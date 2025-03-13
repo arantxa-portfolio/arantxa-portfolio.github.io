@@ -2,6 +2,7 @@ import { Link } from "@/components/Link";
 import { useI18n } from "@/hooks/useI18n";
 import Image from "next/image";
 import illustrations from "@/lib/illustrations-data.json";
+import Seo from "@/components/Seo";
 
 export function getStaticPaths() {
   return { paths: ["/pt", "/en", "/es"], fallback: false };
@@ -20,6 +21,7 @@ export default function Home({ illustrations }) {
 
   return (
     <>
+      <Seo title={t('illustrations_bar')} />
       <div className="banner" />
       <section className="section-illustrations">
         <section className="section-content">
