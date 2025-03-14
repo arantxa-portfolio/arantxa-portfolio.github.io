@@ -53,7 +53,7 @@ export default function IllustrationDetail({ item }) {
   return (
     <>
       <ImageModal isOpen={openModal} onClose={() => setOpenModal(false)}>
-        <img src={item.src} onClick={() => window.open(item.src)}/>
+        <img src={item.src}/>
       </ImageModal>
       <Seo
         title={`${item.title[lang]} | ${t("illustrations_bar")}`}

@@ -41,7 +41,7 @@ export default function HQDetail({ item }) {
   return (
     <>
       <ImageModal isOpen={openModal} onClose={() => setOpenModal(false)}>
-        <img src={selectedImage} onClick={() => window.open(item.src)} />
+        <img src={selectedImage} />
       </ImageModal>
       <Seo
         title={`${item.title[lang]} | ${t("hqs_bar")}`}
