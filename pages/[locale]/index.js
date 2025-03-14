@@ -36,6 +36,7 @@ export default function Home({ illustrations }) {
                   height={360}
                   title={il.title[lang]}
                   alt={il.description[lang]}
+                  unoptimized
                 />
               </Link>
             ))}

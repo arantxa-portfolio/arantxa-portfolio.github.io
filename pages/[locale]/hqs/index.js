@@ -45,6 +45,7 @@ export default function HQs({ hqs }) {
                   height={360}
                   title={hq.title[lang]}
                   alt={hq.description[lang]}
+                  unoptimized
                 />
               </Link>
             ))}

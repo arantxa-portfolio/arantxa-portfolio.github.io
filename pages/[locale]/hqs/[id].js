@@ -37,11 +37,19 @@ export async function getStaticProps({ params: { id } }) {
 export default function HQDetail({ item }) {
   const { t, lang } = useI18n({});
   const [openModal, setOpenModal] = useState(false);
-  const [selectedImage, setSelectedImage] = useState();
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   return (
     <>
       <ImageModal isOpen={openModal} onClose={() => setOpenModal(false)}>
-        <img src={selectedImage} />
+        <img src={item.src[selectedImageIndex]} />
+        <div className="hq-control">
+          <button title={t('back')} onClick={() => setSelectedImageIndex(selectedImageIndex - 1)} disabled={selectedImageIndex === 0}>
+            <i className="bi bi-arrow-left-circle-fill"></i>
+          </button>
+          <button title={t('next')} onClick={() => setSelectedImageIndex(selectedImageIndex + 1)} disabled={selectedImageIndex === item.src.length - 1}>
+          <i className="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </div>
       </ImageModal>
       <Seo
         title={`${item.title[lang]} | ${t("hqs_bar")}`}
@@ -56,7 +64,7 @@ export default function HQDetail({ item }) {
               src={i}
               alt={`Page ${idx + 1}`}
               onClick={() => {
-                setSelectedImage(i);
+                setSelectedImageIndex(idx);
                 setOpenModal(true);
               }}
             />

@@ -134,6 +134,28 @@ hr {
   border-radius: 50%;
 }
 
+.hq-control {
+  position: absolute;
+  left: 50%;
+  bottom: 2.5%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    border: none;
+    background: none;
+    font-size: 24px;
+    color: $primary-red;
+    cursor: pointer;
+  }
+  button[disabled] {
+    color: rgba($primary-red, 0.5);
+    cursor: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .illustration-container,
   .hq-container {
