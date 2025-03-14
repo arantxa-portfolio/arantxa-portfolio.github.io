@@ -13,8 +13,8 @@ const baseUrl =
 export async function getStaticPaths() {
   const locales = ["en", "pt", "es"];
   const paths = locales.flatMap((locale) =>
-    hqs.map((hq, idx) => ({
-      params: { locale, id: `${idx + 1}` },
+    hqs.map((hq) => ({
+      params: { locale, id: hq.id },
     }))
   );
 
@@ -25,7 +25,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { id } }) {
-  const item = hqs[Number(id) - 1];
+  const item = hqs.find((hq) => hq.id === id);
 
   if (item) {
     return { props: { item } };

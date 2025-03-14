@@ -21,23 +21,25 @@ export default function Home({ illustrations }) {
 
   return (
     <>
-      <Seo title={t('illustrations_bar')} />
+      <Seo title={t("illustrations_bar")} />
       <div className="banner" />
       <section className="section-illustrations">
         <section className="section-content">
           <h2>{t("illustrations")}</h2>
           <div className="section-gallery">
-            {illustrations.map((il, idx) => (
-              <Link key={idx} href={`/illustrations/` + (idx + 1)}>
-                <Image
-                  key={idx}
-                  src={il.src}
-                  width={360}
-                  height={360}
-                  title={il.title[lang]}
-                  alt={il.description[lang]}
-                  unoptimized
-                />
+            {illustrations.map((il) => (
+              <Link key={il.id} href={`/illustrations/` + il.id}>
+                <div className="gallery-item">
+                  <Image
+                    src={il.src}
+                    width={360}
+                    height={360}
+                    title={il.title[lang]}
+                    alt={il.description[lang]}
+                    unoptimized
+                  />
+                  <h6>{il.title[lang]}</h6>
+                </div>
               </Link>
             ))}
           </div>

@@ -12,6 +12,11 @@
       "es": "Después de robar un juguete, un niño marginado encuentra la vocación de convertirse en un futuro arquitecto, pero tendrá que lidiar con una propuesta de una pandilla local y abandonar el mundo del crimen para perseguir su sueño."
     },
     "date": "2024-11-04",
-    "src": ["/hqs/hq1.png", "/hqs/hq2.jpg"]
+    "src": ["/hqs/hq1.png", "/hqs/hq2.jpg"],
+    "credits": {
+      "pt": "Felipe Oliver",
+      "en": "Felipe Oliver",
+      "es": "Felipe Oliver"
+    }
   }
 ]

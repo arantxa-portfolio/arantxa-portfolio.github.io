@@ -25,8 +25,8 @@ function getDateLocale(currentLang) {
 export async function getStaticPaths() {
   const locales = ["en", "pt", "es"];
   const paths = locales.flatMap((locale) =>
-    illustrations.map((il, idx) => ({
-      params: { locale, id: `${idx + 1}` },
+    illustrations.map((il) => ({
+      params: { locale, id: il.id },
     }))
   );
 
@@ -37,7 +37,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { id } }) {
-  const item = illustrations[Number(id) - 1];
+  const item = illustrations.find((il) => il.id === id);
 
   if (item) {
     return { props: { item } };

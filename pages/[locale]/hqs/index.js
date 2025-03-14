@@ -30,23 +30,25 @@ export default function HQs({ hqs }) {
 
   return (
     <>
-      <Seo title={t('hqs_bar')}/>
+      <Seo title={t("hqs_bar")} />
       <div className="banner" />
       <section className="section-hqs">
         <section className="section-content">
           <h2>{t("hqs")}</h2>
           <div className="section-gallery">
-            {hqs.map((hq, idx) => (
-              <Link key={idx} href={`/hqs/` + (idx + 1)}>
-                <Image
-                  key={idx}
-                  src={hq.src[0]}
-                  width={360}
-                  height={360}
-                  title={hq.title[lang]}
-                  alt={hq.description[lang]}
-                  unoptimized
-                />
+            {hqs.map((hq) => (
+              <Link key={hq.id} href={`/hqs/` + hq.id}>
+                <div className="gallery-item">
+                  <Image
+                    src={hq.src[0]}
+                    width={360}
+                    height={360}
+                    title={hq.title[lang]}
+                    alt={hq.description[lang]}
+                    unoptimized
+                  />
+                  <h6>{hq.title[lang]}</h6>
+                </div>
               </Link>
             ))}
           </div>

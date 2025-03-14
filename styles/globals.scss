@@ -133,6 +133,37 @@ hr {
   margin: auto;
   border-radius: 50%;
 }
+.gallery-item {
+  position: relative;
+  img {
+    display: block;
+    transition: filter 0.3s ease-in-out
+  }
+
+  h6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: $primary-red;
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:hover {
+    h6 {
+      opacity: 1;
+    }
+
+    img {
+      filter: brightness(75%);
+    }
+  }
+}
 
 .hq-control {
   position: absolute;
@@ -166,4 +197,10 @@ hr {
     width: auto;
     padding: 16px;
   }
+  .gallery-item {
+    h6 {
+      opacity: 1;
+    }
+  }
+ 
 }
