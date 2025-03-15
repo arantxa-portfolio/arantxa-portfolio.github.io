@@ -9,6 +9,7 @@ export function getStaticPaths() {
 }
 
 export async function getStaticProps() {
+  illustrations.sort((a, b) => new Date(b. date) - new Date(a.date));
   return {
     props: {
       illustrations,
@@ -22,7 +23,9 @@ export default function Home({ illustrations }) {
   return (
     <>
       <Seo title={t("illustrations_bar")} />
-      <div className="banner" />
+      <div className="banner-wrapper">
+        <div className="banner" />
+      </div>
       <section className="section-illustrations">
         <section className="section-content">
           <h2>{t("illustrations")}</h2>

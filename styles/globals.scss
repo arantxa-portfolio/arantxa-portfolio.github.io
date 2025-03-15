@@ -21,6 +21,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .banner-about {
   background-color: $primary-white;
   height: 200px;
@@ -40,9 +41,10 @@ body {
   position: absolute;
   background-image: url("/wave.svg");
   background-repeat: no-repeat;
-  top: -20px;
+  background-size: cover;
+  top: -18px;
   width: 100%;
-  height: 100%;
+  height: 56px;
 }
 
 .section-content {
@@ -70,6 +72,9 @@ body {
   position: absolute;
   right: 16px;
   top: 16px;
+  button {
+    color: $primary-red !important;
+  }
 }
 
 hr {

@@ -77,6 +77,8 @@ export default function HQDetail({ item }) {
             </Link>
             <h3>{item.title[lang]}</h3>
             <p>{item.description[lang]}</p>
+            <hr/>
+            <small><b>{`${t('credits')}: `}</b><span>{item.credits[lang]}</span></small>
           </div>
         </div>
       </section>

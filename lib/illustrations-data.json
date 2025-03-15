@@ -12,7 +12,7 @@
       "es": "Mi ilustración la hice para participar en el concurso de becas Inko."
     },
     "date": "2024-01-09",
-    "src": "/illustrations/img5.jpg"
+    "src": "/illustrations/beco-medieval.jpg"
   },
   {
     "id": "fish",
@@ -27,7 +27,7 @@
       "es": "Ilustración digitalizada"
     },
     "date": "2023-01-26",
-    "src": "/illustrations/img3.jpg"
+    "src": "/illustrations/fish.jpg"
   },
   {
     "id": "sweet-charity",
@@ -42,7 +42,7 @@
       "es": "Ilustración digitalizada"
     },
     "date": "2022-10-04",
-    "src": "/illustrations/img2.jpg"
+    "src": "/illustrations/sweet-charity.jpg"
   },
   {
     "id": "mascarados",
@@ -57,6 +57,6 @@
       "es": "Ilustración digitalizada"
     },
     "date": "2022-09-16",
-    "src": "/illustrations/img1.jpg"
+    "src": "/illustrations/mascarados.jpg"
   }
 ]

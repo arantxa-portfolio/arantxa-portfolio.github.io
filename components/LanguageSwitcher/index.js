@@ -26,7 +26,7 @@ export const LanguageSwitcher = () => {
         style={{
           padding: "8px 12px",
           background: "$primary-white",
-          color: "$primary-dark",
+          color: "$primary-red",
           border: "none",
           cursor: "pointer",
           borderRadius: "4px",
