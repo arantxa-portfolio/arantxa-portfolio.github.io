@@ -41,6 +41,7 @@ export default function HQDetail({ item }) {
   const shareUrl = `${baseUrl}/hqs/${item.id}`;
   const encodedUrl = encodeURIComponent(shareUrl);
   const encodedText = encodeURIComponent(item.title[lang]);
+  const encodedMediaUrl = encodeURIComponent(baseUrl + item.src[0]);
   return (
     <>
       <ImageModal isOpen={openModal} onClose={() => setOpenModal(false)}>
@@ -75,7 +76,7 @@ export default function HQDetail({ item }) {
           ))}
           <div className="container-center" style={{gap: "12px"}}>
             <a
-              href={`https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodeURIComponent(item.src[0])}&description=${encodedText}`}
+              href={`https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodedMediaUrl})}&description=${encodedText}`}
               target="_blank"
             >
               <i class="bi bi-pinterest"></i> <small className="ml-xs">{t('save')}</small>
