@@ -25,26 +25,14 @@ body {
 .banner-about {
   background-color: $primary-white;
   height: 200px;
-  background-image: url("/banner.png");
+  background-image: url("/banner-about.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 .section-illustrations,
 .section-hqs {
   position: relative;
-}
-
-.section-illustrations::before,
-.section-hqs::before {
-  content: "";
-  display: block;
-  position: absolute;
-  background-image: url("/wave.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: -18px;
-  width: 100%;
-  height: 56px;
 }
 
 .section-content {
@@ -81,6 +69,14 @@ hr {
   color: $primary-white;
   opacity: 0.05;
   border-width: 1px;
+}
+
+.text-thicker {
+  transform: scaleY(1.1);
+}
+
+.text-thinner {
+  transform: scaleY(0.9);
 }
 
 .illustration-container,
@@ -189,6 +185,14 @@ hr {
   button[disabled] {
     color: rgba($primary-red, 0.5);
     cursor: auto;
+  }
+
+  .pages {
+    background-color: $primary-red;
+    color: $primary-white;
+    padding: 4px;
+    border-radius: 4px;
+    user-select: none;
   }
 }
 

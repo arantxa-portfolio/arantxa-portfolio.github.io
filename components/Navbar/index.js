@@ -15,7 +15,7 @@ export function Navbar() {
   return (
     <header className={styles.navbar}>
       <div className={styles.brand}>
-        <h1>Arântia</h1>
+        <h1><Link href="/">Arântia</Link></h1>
         <div className="lang-switch-wrapper"><LanguageSwitcher /></div>
       </div>
       <nav className={styles.navlinks}>

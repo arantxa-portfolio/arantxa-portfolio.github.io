@@ -46,6 +46,7 @@ export default function HQDetail({ item }) {
           <button title={t('back')} onClick={() => setSelectedImageIndex(selectedImageIndex - 1)} disabled={selectedImageIndex === 0}>
             <i className="bi bi-arrow-left-circle-fill"></i>
           </button>
+          <span className="pages text-thinner">{selectedImageIndex+1} / {item.src.length}</span>
           <button title={t('next')} onClick={() => setSelectedImageIndex(selectedImageIndex + 1)} disabled={selectedImageIndex === item.src.length - 1}>
           <i className="bi bi-arrow-right-circle-fill"></i>
           </button>
@@ -75,10 +76,10 @@ export default function HQDetail({ item }) {
             <Link href="/hqs">
               <i className="bi bi-arrow-left-circle"></i> {t("back")}
             </Link>
-            <h3>{item.title[lang]}</h3>
-            <p>{item.description[lang]}</p>
+            <h3 className="text-thicker">{item.title[lang]}</h3>
+            <p className="text-thinner">{item.description[lang]}</p>
             <hr/>
-            <small><b>{`${t('credits')}: `}</b><span>{item.credits[lang]}</span></small>
+            <small><b>{`${t('credits')}: `}</b><span className="text-thinner">{item.credits[lang]}</span></small>
           </div>
         </div>
       </section>

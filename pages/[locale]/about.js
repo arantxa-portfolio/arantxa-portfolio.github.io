@@ -11,12 +11,11 @@ export default function Sobre() {
         <div className="avatar"></div>
         <section className="about-content">
           <h2>Arântia</h2>
-          <p>{t("about_title")}</p>
+          <p className="text-thinner">{t("about_title")}</p>
         </section>
         <hr />
         <section className="about-content">
           <p>
-            {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
             tristique vitae ipsum id feugiat. Morbi vel consectetur metus.
             Praesent est metus, tincidunt eget magna quis, iaculis lacinia orci.

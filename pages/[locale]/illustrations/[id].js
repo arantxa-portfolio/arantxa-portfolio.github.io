@@ -69,14 +69,14 @@ export default function IllustrationDetail({ item }) {
             <Link href="/">
               <i className="bi bi-arrow-left-circle"></i> {t("back")}
             </Link>
-            <h3>{item.title[lang]}</h3>
-            <p>{item.description[lang]}</p>
+            <h3 className="text-thicker">{item.title[lang]}</h3>
+            <p className="text-thinner">{item.description[lang]}</p>
             <p className="time mt-md">
               <i className="bi bi-clock"></i>{" "}
-              {formatDistanceToNow(new Date(item.date), {
+              <span className="text-thinner">{formatDistanceToNow(new Date(item.date), {
                 addSuffix: false,
                 locale: getDateLocale(lang),
-              })}
+              })}</span>
             </p>
           </div>
         </div>
