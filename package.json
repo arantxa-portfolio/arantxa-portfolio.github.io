@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preview": "serve docs/ -p 3000"
+    "preview": "serve out/ -p 3000"
   },
   "dependencies": {
     "bootstrap-icons": "^1.11.3",
