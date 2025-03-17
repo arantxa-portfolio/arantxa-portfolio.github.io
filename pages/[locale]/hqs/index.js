@@ -3,6 +3,7 @@ import Seo from "@/components/Seo";
 import { useI18n } from "@/hooks/useI18n";
 import hqs from "@/lib/hqs-data.json";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export function getStaticPaths() {
   return {
@@ -37,9 +38,14 @@ export default function HQs({ hqs }) {
         <section className="section-content">
           <h2>{t("hqs")}</h2>
           <div className="section-gallery">
-            {hqs.map((hq) => (
+            {hqs.map((hq, idx) => (
               <Link key={hq.id} href={`/hqs/` + hq.id}>
-                <div className="gallery-item">
+                <motion.div
+                  className="gallery-item"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: idx * 0.1 }}
+                >
                   <Image
                     src={hq.src[0]}
                     width={360}
@@ -49,7 +55,7 @@ export default function HQs({ hqs }) {
                     unoptimized
                   />
                   <h6>{hq.title[lang]}</h6>
-                </div>
+                </motion.div>
               </Link>
             ))}
           </div>

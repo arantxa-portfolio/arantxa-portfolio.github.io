@@ -49,11 +49,13 @@ export async function getStaticProps({ params: { id } }) {
 export default function IllustrationDetail({ item }) {
   const { t, lang } = useI18n({});
   const [openModal, setOpenModal] = useState(false);
-
+  const shareUrl = `${baseUrl}/illustrations/${item.id}`;
+  const encodedUrl = encodeURIComponent(shareUrl);
+  const encodedText = encodeURIComponent(item.title[lang]);
   return (
     <>
       <ImageModal isOpen={openModal} onClose={() => setOpenModal(false)}>
-        <img src={item.src}/>
+        <img src={item.src} />
       </ImageModal>
       <Seo
         title={`${item.title[lang]} | ${t("illustrations_bar")}`}
@@ -63,6 +65,14 @@ export default function IllustrationDetail({ item }) {
       <section className="illustration-container">
         <div className="illustration-image">
           <img src={item.src} onClick={() => setOpenModal(true)} />
+          <div className="container-center" style={{gap: "12px"}}>
+            <a
+              href={`https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodeURIComponent(item.src)}&description=${encodedText}`}
+              target="_blank"
+            >
+              <i class="bi bi-pinterest"></i> <small className="ml-xs">{t('save')}</small>
+            </a>
+          </div>
         </div>
         <div className="illustration-detail">
           <div>
@@ -72,11 +82,13 @@ export default function IllustrationDetail({ item }) {
             <h3 className="text-thicker">{item.title[lang]}</h3>
             <p className="text-thinner">{item.description[lang]}</p>
             <p className="time mt-md">
-              <i className="bi bi-clock"></i>{" "}
-              <span className="text-thinner">{formatDistanceToNow(new Date(item.date), {
-                addSuffix: false,
-                locale: getDateLocale(lang),
-              })}</span>
+              <i className="bi bi-clock mr-xs"></i>
+              <span className="text-thinner">
+                {formatDistanceToNow(new Date(item.date), {
+                  addSuffix: false,
+                  locale: getDateLocale(lang),
+                })}
+              </span>
             </p>
           </div>
         </div>

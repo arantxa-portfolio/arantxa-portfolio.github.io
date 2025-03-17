@@ -41,7 +41,11 @@ body {
   max-width: 920px;
   margin: auto;
 }
-
+.container-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .section-gallery {
   position: relative;
   z-index: 999;
@@ -112,6 +116,10 @@ hr {
 .time,
 .small {
   font-size: 14px;
+}
+
+.time {
+  opacity: 0.8;
 }
 
 .about-section {
