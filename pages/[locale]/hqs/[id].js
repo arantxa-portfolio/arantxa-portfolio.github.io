@@ -76,7 +76,7 @@ export default function HQDetail({ item }) {
           ))}
           <div className="container-center" style={{gap: "12px"}}>
             <a
-              href={`https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodedMediaUrl})}&description=${encodedText}`}
+              href={`https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodedMediaUrl}&description=${encodedText}`}
               target="_blank"
             >
               <i class="bi bi-pinterest"></i> <small className="ml-xs">{t('save')}</small>
