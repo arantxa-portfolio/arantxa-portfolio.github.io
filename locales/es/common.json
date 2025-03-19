@@ -13,5 +13,6 @@
     "keywords": "arte, ilustración, guión",
     "description": "Mi cartera. Descubre mi trabajo.",
     "credits": "Créditos",
-    "save": "Guardar"
+    "save": "Guardar",
+    "date_format": "dd 'de' MMMM 'de' yyyy"
 }

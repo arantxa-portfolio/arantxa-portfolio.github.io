@@ -1,0 +1,60 @@
+.item {
+  position: relative;
+  transition: transform 400ms, z-index 400ms, object-position 400ms;
+  img {
+    display: block;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  h6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: $primary-red;
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:hover {
+    transform: scale(1.1, 1.1);
+    z-index: 100;
+    h6 {
+      opacity: 1;
+    }
+
+    img {
+      filter: brightness(75%);
+      animation-name: thumb-scroll;
+      animation-delay: 400ms;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+@keyframes thumb-scroll {
+  15%,
+  35% {
+    object-position: 0% 0%;
+  }
+  65%,
+  85% {
+    object-position: 100% 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .item {
+    h6 {
+      opacity: 1;
+    }
+  }
+}

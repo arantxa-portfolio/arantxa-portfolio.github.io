@@ -1,0 +1,23 @@
+.hqs {
+    position: relative;
+    .content {
+      padding: 16px;
+      max-width: 920px;
+      margin: auto;
+    }
+    .gallery {
+      position: relative;
+      z-index: 999;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      align-items: center;
+      justify-content: center;
+      img {
+        object-fit: cover;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    }
+  }
+  

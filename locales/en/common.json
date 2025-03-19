@@ -13,5 +13,6 @@
     "keywords": "art, illustration, script",
     "description": "My portfolio. Check out my work.",
     "credits": "Credits",
-    "save": "Save"
+    "save": "Save",
+    "date_format": "MMMM dd, yyyy"
 }

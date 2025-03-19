@@ -13,5 +13,6 @@
     "keywords": "arte, ilustração, roteiro",
     "description": "Meu portfólio. Conheça meus trabalhos.",
     "credits": "Créditos",
-    "save": "Salvar"
+    "save": "Salvar",
+    "date_format": "dd 'de' MMMM 'de' yyyy"
 }

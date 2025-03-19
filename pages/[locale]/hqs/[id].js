@@ -4,6 +4,9 @@ import { useI18n } from "@/hooks/useI18n";
 import Seo from "@/components/Seo";
 import ImageModal from "@/components/ImageModal";
 import { useState } from "react";
+import PinterestButton from "@/components/PinterestButton";
+import TimeAgo from "@/components/TimeAgo";
+import HQControl from "@/components/HQControl";
 
 const baseUrl =
   process.env.NODE_ENV === "production"
@@ -38,31 +41,25 @@ export default function HQDetail({ item }) {
   const { t, lang } = useI18n({});
   const [openModal, setOpenModal] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-  const shareUrl = `${baseUrl}/hqs/${item.id}`;
-  const encodedUrl = encodeURIComponent(shareUrl);
-  const encodedText = encodeURIComponent(item.title[lang]);
-  const encodedMediaUrl = encodeURIComponent(baseUrl + item.src[0]);
+  
   return (
     <>
       <ImageModal isOpen={openModal} onClose={() => setOpenModal(false)}>
         <img src={item.src[selectedImageIndex]} />
-        <div className="hq-control">
-          <button title={t('back')} onClick={() => setSelectedImageIndex(selectedImageIndex - 1)} disabled={selectedImageIndex === 0}>
-            <i className="bi bi-arrow-left-circle-fill"></i>
-          </button>
-          <span className="pages text-thinner">{selectedImageIndex+1} / {item.src.length}</span>
-          <button title={t('next')} onClick={() => setSelectedImageIndex(selectedImageIndex + 1)} disabled={selectedImageIndex === item.src.length - 1}>
-          <i className="bi bi-arrow-right-circle-fill"></i>
-          </button>
-        </div>
+        <HQControl
+          total={item.src.length}
+          current={selectedImageIndex}
+          onPrevious={() => setSelectedImageIndex(selectedImageIndex - 1)}
+          onNext={() => setSelectedImageIndex(selectedImageIndex + 1)}
+        />
       </ImageModal>
       <Seo
         title={`${item.title[lang]} | ${t("hqs_bar")}`}
         description={item.description[lang]}
         image={`${baseUrl}${item.src[0]}`}
       />
-      <section className="hq-container">
-        <div className="hq-image">
+      <section className="media-container">
+        <div className="media-image">
           {item.src.map((i, idx) => (
             <img
               key={idx}
@@ -74,24 +71,23 @@ export default function HQDetail({ item }) {
               }}
             />
           ))}
-          <div className="container-center" style={{gap: "12px"}}>
-            <a
-              href={`https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodedMediaUrl}&description=${encodedText}`}
-              target="_blank"
-            >
-              <i class="bi bi-pinterest"></i> <small className="ml-xs">{t('save')}</small>
-            </a>
+          <div className="container-center" style={{ gap: "12px" }}>
+            <PinterestButton baseUrl={baseUrl} item={item} isHQ />
           </div>
         </div>
-        <div className="hq-detail">
+        <div className="media-detail">
           <div>
             <Link href="/hqs">
               <i className="bi bi-arrow-left-circle"></i> {t("back")}
             </Link>
             <h3 className="text-thicker">{item.title[lang]}</h3>
             <p className="text-thinner">{item.description[lang]}</p>
-            <hr/>
-            <small><b>{`${t('credits')}: `}</b><span className="text-thinner">{item.credits[lang]}</span></small>
+            <TimeAgo date={item.date} />
+            <hr />
+            <small>
+              <b>{`${t("credits")}: `}</b>
+              <span className="text-thinner">{item.credits[lang]}</span>
+            </small>
           </div>
         </div>
       </section>

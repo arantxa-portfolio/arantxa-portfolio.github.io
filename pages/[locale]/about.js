@@ -1,3 +1,4 @@
+import AboutBanner from "@/components/AboutBanner";
 import Seo from "@/components/Seo";
 import { useI18n } from "@/hooks/useI18n";
 
@@ -32,7 +33,7 @@ export default function Sobre() {
           </p>
         </section>
       </section>
-      <div className="banner-about" />
+      <AboutBanner />
     </>
   );
 }
