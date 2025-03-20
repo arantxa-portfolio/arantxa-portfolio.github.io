@@ -11,7 +11,13 @@ export default function HQSection({ hqs }) {
         <h2>{t("hqs")}</h2>
         <div className={styles.gallery}>
           {hqs.map((hq, idx) => (
-            <GalleryItem item={hq} index={idx} type="hqs" lang={lang} />
+            <GalleryItem
+              key={item.id}
+              item={hq}
+              index={idx}
+              type="hqs"
+              lang={lang}
+            />
           ))}
         </div>
       </section>

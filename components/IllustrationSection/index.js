@@ -12,6 +12,7 @@ export default function IllustrationSection({ illustrations }) {
         <div className={styles.gallery}>
           {illustrations.map((il, idx) => (
             <GalleryItem
+              key={il.id}
               item={il}
               index={idx}
               type="illustrations"
