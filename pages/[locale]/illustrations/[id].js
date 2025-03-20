@@ -62,7 +62,7 @@ export default function IllustrationDetail({ item }) {
             <Link href="/">
               <i className="bi bi-arrow-left-circle"></i> {t("back")}
             </Link>
-            <h3 className="text-thicker">{item.title[lang]}</h3>
+            <h2 className="text-thicker">{item.title[lang]}</h2>
             <p className="text-thinner">{item.description[lang]}</p>
             <TimeAgo date={item.date} />
           </div>
