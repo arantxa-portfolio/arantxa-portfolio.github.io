@@ -4,7 +4,7 @@ import Head from "next/head";
 export default function Seo({
   title = "Arântia",
   description,
-  image = "https://arantia.art/banner.png",
+  image = "https://arantia.art/banner-main.png",
 }) {
   const { t, lang } = useI18n({});
 

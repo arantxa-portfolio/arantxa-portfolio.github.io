@@ -1,6 +1,6 @@
 .banner {
   height: 356px;
-  background: url('/banner.png');
+  background: url('/banner-main.png'), $primary-white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
