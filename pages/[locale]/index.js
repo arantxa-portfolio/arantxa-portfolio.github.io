@@ -1,4 +1,3 @@
-import { Link } from "@/components/Link";
 import { useI18n } from "@/hooks/useI18n";
 import illustrations from "@/lib/illustrations-data.json";
 import Seo from "@/components/Seo";

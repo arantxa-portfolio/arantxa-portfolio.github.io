@@ -21,7 +21,7 @@ export default function GalleryItem({ item, index, type, lang }) {
           alt={item.description[lang]}
           unoptimized
         />
-        <h6>{item.title[lang]}</h6>
+        <p>{item.title[lang]}</p>
       </motion.div>
     </Link>
   );

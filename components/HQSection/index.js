@@ -9,6 +9,7 @@ export default function HQSection({ hqs }) {
     <section className={styles.hqs}>
       <section className={styles.content}>
         <h2>{t("hqs")}</h2>
+        <hr className="mb-md"/>
         <div className={styles.gallery}>
           {hqs.map((hq, idx) => (
             <GalleryItem

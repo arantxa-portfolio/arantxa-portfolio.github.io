@@ -9,6 +9,7 @@ export default function IllustrationSection({ illustrations }) {
     <section className={styles.illustrations}>
       <section className={styles.content}>
         <h2>{t("illustrations")}</h2>
+        <hr className="mb-md"/>
         <div className={styles.gallery}>
           {illustrations.map((il, idx) => (
             <GalleryItem
