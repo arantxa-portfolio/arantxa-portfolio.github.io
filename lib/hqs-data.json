@@ -17,6 +17,11 @@
       "pt": "Felipe Oliver",
       "en": "Felipe Oliver",
       "es": "Felipe Oliver"
+    },
+    "keywords": {
+      "en": ["comic", "graphic novel", "dream", "architecture", "redemption", "crime", "childhood"],
+      "pt": ["quadrinhos", "história em quadrinhos", "sonho", "arquitetura", "redenção", "crime", "infância"],
+      "es": ["cómics", "novela gráfica", "sueño", "arquitectura", "redención", "crimen", "infancia"]
     }
   }
 ]

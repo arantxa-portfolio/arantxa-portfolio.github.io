@@ -11,6 +11,7 @@ export default function Seo({
   title = "Arântia",
   description,
   image = "https://arantia.art/banner-main.png",
+  keywords
 }) {
   const { t, lang } = useI18n({});
   const router = useRouter();
@@ -20,7 +21,7 @@ export default function Seo({
     <Head>
       <title>{`${title} | ${t('about_title')}`}</title>
       <meta name="title" content={title} />
-      <meta name="keywords" content={t("keywords")} />
+      <meta name="keywords" content={keywords || t("keywords")} />
       <meta name="author" content="Arântia" />
       <meta name="description" content={description || t("description")} />
       <meta property="og:title" content={title} />

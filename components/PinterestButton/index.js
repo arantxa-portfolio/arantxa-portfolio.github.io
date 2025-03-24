@@ -16,7 +16,7 @@ export default function PinterestButton({ baseUrl, item, isHQ }) {
       href={`https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&media=${encodedMediaUrl}&description=${encodedText}`}
       target="_blank"
     >
-      <i class="bi bi-pinterest" />
+      <i className="bi bi-pinterest" />
       <small className="ml-xs">{t("save")}</small>
     </a>
   );

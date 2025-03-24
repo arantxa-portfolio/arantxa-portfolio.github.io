@@ -12,7 +12,12 @@
       "es": "Mi ilustración la hice para participar en el concurso de becas Inko."
     },
     "date": "2024-01-09",
-    "src": "/illustrations/beco-medieval.jpg"
+    "src": "/illustrations/beco-medieval.jpg",
+    "keywords": {
+      "en": ["medieval", "alley", "drawing", "inko"],
+      "pt": ["medieval", "beco", "ilustração", "inko"],
+      "es": ["medieval", "callejín", "ilustración", "inko"]
+    }
   },
   {
     "id": "fish",

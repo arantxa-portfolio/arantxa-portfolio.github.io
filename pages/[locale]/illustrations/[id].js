@@ -49,6 +49,7 @@ export default function IllustrationDetail({ item }) {
         title={`${item.title[lang]} | ${t("illustrations_bar")}`}
         description={item.description[lang]}
         image={`${baseUrl}${item.src}`}
+        keywords={item.keywords?.[lang].join(', ')}
       />
       <section className="media-container">
         <div className="media-image">

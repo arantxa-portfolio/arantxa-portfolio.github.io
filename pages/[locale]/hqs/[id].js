@@ -57,6 +57,7 @@ export default function HQDetail({ item }) {
         title={`${item.title[lang]} | ${t("hqs_bar")}`}
         description={item.description[lang]}
         image={`${baseUrl}${item.src[0]}`}
+        keywords={item.keywords?.[lang].join(', ')}
       />
       <section className="media-container">
         <div className="media-image">
