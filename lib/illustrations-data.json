@@ -78,35 +78,5 @@
     },
     "date": "2022-09-16",
     "src": "/illustrations/mascarados.jpg"
-  },
-  {
-    "id": "rascunho",
-    "title": {
-      "pt": "Rascunho",
-      "en": "Rascunho",
-      "es": "Rascunho"
-    },
-    "description": {
-      "pt": "Teste",
-      "en": "Teste",
-      "es": "Teste"
-    },
-    "keywords": {
-      "pt": [
-        "teste1",
-        "teste2",
-        "teste1000"
-      ],
-      "en": [
-        "teste1",
-        "teste2"
-      ],
-      "es": [
-        "teste1",
-        "teste2"
-      ]
-    },
-    "date": "2025-04-01",
-    "src": "/illustrations/rascunho.jpg"
   }
 ]
