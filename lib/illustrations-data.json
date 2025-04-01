@@ -82,8 +82,8 @@
   {
     "id": "rascunho",
     "title": {
-      "pt": "Rascunho",
-      "en": "Rascunho",
+      "pt": "Rascunho 2",
+      "en": "Rascunho 2",
       "es": "Rascunho"
     },
     "description": {
@@ -94,7 +94,8 @@
     "keywords": {
       "pt": [
         "teste1",
-        "teste2"
+        "teste2",
+        "teste1000"
       ],
       "en": [
         "teste1",
@@ -102,7 +103,8 @@
       ],
       "es": [
         "teste1",
-        "teste2"
+        "teste2",
+        "teste500"
       ]
     },
     "date": "2025-04-01",
