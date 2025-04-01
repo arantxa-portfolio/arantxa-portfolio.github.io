@@ -78,34 +78,5 @@
     },
     "date": "2022-09-16",
     "src": "/illustrations/mascarados.jpg"
-  },
-  {
-    "id": "rascunho-2",
-    "title": {
-      "pt": "Rascunho 2",
-      "en": "Rascunho",
-      "es": "Rascunho"
-    },
-    "description": {
-      "pt": "Uma ilustração de exemplo",
-      "en": "Uma ilustração de exemplo",
-      "es": "Uma ilustração de exemplo"
-    },
-    "keywords": {
-      "pt": [
-        "teste1",
-        "teste2"
-      ],
-      "en": [
-        "teste1",
-        "teste2"
-      ],
-      "es": [
-        "teste1",
-        "teste2"
-      ]
-    },
-    "date": "2025-04-01",
-    "src": "/illustrations/rascunho-2.jpg"
   }
 ]
