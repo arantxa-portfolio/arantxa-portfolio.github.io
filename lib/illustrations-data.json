@@ -107,37 +107,5 @@
     },
     "date": "2025-04-01",
     "src": "/illustrations/rascunho-2.jpg"
-  },
-  {
-    "id": "rascunho-3",
-    "title": {
-      "pt": "Rascunho 3",
-      "en": "Rascunho 3",
-      "es": "Rascunho 3"
-    },
-    "description": {
-      "pt": "Outro teste de desenvolvimento",
-      "en": "Outro teste de desenvolvimento",
-      "es": "Outro teste de desenvolvimento"
-    },
-    "keywords": {
-      "pt": [
-        "teste1",
-        "teste2",
-        "teste3"
-      ],
-      "en": [
-        "teste1",
-        "teste2",
-        "teste3"
-      ],
-      "es": [
-        "teste1",
-        "teste2",
-        "teste3"
-      ]
-    },
-    "date": "2025-04-01",
-    "src": "/illustrations/rascunho-3.jpg"
   }
 ]
