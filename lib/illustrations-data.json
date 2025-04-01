@@ -78,34 +78,5 @@
     },
     "date": "2022-09-16",
     "src": "/illustrations/mascarados.jpg"
-  },
-  {
-    "id": "rascunho",
-    "title": {
-      "pt": "Rascunho",
-      "en": "Drawing",
-      "es": "Desenho"
-    },
-    "description": {
-      "pt": "Teste",
-      "en": "Teste",
-      "es": "Teste"
-    },
-    "keywords": {
-      "pt": [
-        "rascunho",
-        "teste"
-      ],
-      "en": [
-        "rascunho",
-        "teste"
-      ],
-      "es": [
-        "rascunho",
-        "teste"
-      ]
-    },
-    "date": "2025-04-01",
-    "src": "/illustrations/rascunho.jpg"
   }
 ]
