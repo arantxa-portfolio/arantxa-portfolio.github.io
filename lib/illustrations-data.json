@@ -1,20 +1,5 @@
 [
   {
-    "id": "fish",
-    "title": {
-      "en": "Fish",
-      "pt": "Peixe",
-      "es": "Pez"
-    },
-    "description": {
-      "en": "Digitized illustration",
-      "pt": "Ilustração digitalizada",
-      "es": "Ilustración digitalizada"
-    },
-    "date": "2023-01-26",
-    "src": "/illustrations/fish.jpg"
-  },
-  {
     "id": "sweet-charity",
     "title": {
       "en": "Sweet Charity",
