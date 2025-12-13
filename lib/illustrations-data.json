@@ -1,20 +1,5 @@
 [
   {
-    "id": "sweet-charity",
-    "title": {
-      "en": "Sweet Charity",
-      "pt": "Sweet Charity",
-      "es": "Sweet Charity"
-    },
-    "description": {
-      "en": "Digitized illustration",
-      "pt": "Ilustração digitalizada",
-      "es": "Ilustración digitalizada"
-    },
-    "date": "2022-10-04",
-    "src": "/illustrations/sweet-charity.jpg"
-  },
-  {
     "id": "mascarados",
     "title": {
       "en": "Masked",
