@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "mascaras",
+    "title": {
+      "pt": "Máscaras",
+      "en": "Máscaras",
+      "es": "Máscaras"
+    },
+    "description": {
+      "pt": "Nada a declarar.",
+      "en": "Nada a declarar.",
+      "es": "Nada a declarar."
+    },
+    "keywords": {
+      "pt": [
+        "Nada a declarar."
+      ],
+      "en": [
+        "Nada a declarar."
+      ],
+      "es": [
+        "Nada a declarar."
+      ]
+    },
+    "date": "2025-12-13",
+    "src": "/illustrations/mascaras.jpg"
+  }
+]
