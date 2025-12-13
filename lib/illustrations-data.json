@@ -1,20 +1,5 @@
 [
   {
-    "id": "mascarados",
-    "title": {
-      "en": "Masked",
-      "pt": "Mascarados",
-      "es": "Enmascarados"
-    },
-    "description": {
-      "en": "Digitized illustration",
-      "pt": "Ilustração digitalizada",
-      "es": "Ilustración digitalizada"
-    },
-    "date": "2022-09-16",
-    "src": "/illustrations/mascarados.jpg"
-  },
-  {
     "id": "beco-medieval",
     "title": {
       "en": "Medieval Alley",
