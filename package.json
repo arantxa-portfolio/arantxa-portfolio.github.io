@@ -15,7 +15,7 @@
     "date-fns": "^4.1.0",
     "framer-motion": "^12.5.0",
     "globby": "^11.0.4",
-    "next": "15.2.1",
+    "next": "15.2.6",
     "next-language-detector": "^1.1.0",
     "next-translate": "^2.6.2",
     "react": "19.0.0",
