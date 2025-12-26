@@ -1,28 +1,57 @@
 [
   {
-    "id": "mascaras",
+    "id": "mascarados",
     "title": {
-      "pt": "Máscaras",
-      "en": "Máscaras",
-      "es": "Máscaras"
+      "pt": "Mascarados",
+      "en": "Enmascarados",
+      "es": "Masked"
     },
     "description": {
-      "pt": "Teste.",
-      "en": "Test.",
-      "es": "Teste."
+      "pt": "Estudo de luz e sombra usando nanquim.",
+      "en": "Study of light and shadow using ink.",
+      "es": "Estudio de luces y sombras utilizando tinta china."
     },
     "keywords": {
       "pt": [
-        "Nada a declarar."
+        "nanquim",
+        "estudo"
       ],
       "en": [
-        "Nada a declarar."
+        "ink",
+        "study"
       ],
       "es": [
-        "Nada a declarar."
+        "estudio"
       ]
     },
     "date": "2025-12-13",
     "src": "/illustrations/mascaras.jpg"
+  },
+  {
+    "id": "cenario-cidade",
+    "src": "/illustrations/cenario.jpg",
+    "date": "2025-12-26",
+    "title": {
+      "pt": "Cenário cidade",
+      "en": "City scenery",
+      "es": "Escenario urbano"
+    },
+    "description": {
+      "pt": "Cenário cidade",
+      "en": "City scenery",
+      "es": "Escenario urbano"
+    },
+    "keywords": {
+      "pt": [
+        "estudo"
+      ],
+      "en": [
+        "ink",
+        "study"
+      ],
+      "es": [
+        "estudio"
+      ]
+    }
   }
 ]

@@ -12,16 +12,75 @@
       "es": "Después de robar un juguete, un niño marginado encuentra la vocación de convertirse en un futuro arquitecto, pero tendrá que lidiar con una propuesta de una pandilla local y abandonar el mundo del crimen para perseguir su sueño."
     },
     "date": "2024-11-04",
-    "src": ["/hqs/construindo-um-sonho-1.png", "/hqs/construindo-um-sonho-2.png", "/hqs/construindo-um-sonho-3.png"],
+    "src": [
+      "/hqs/construindo-um-sonho-1.png"
+    ],
     "credits": {
       "pt": "Felipe Oliver",
       "en": "Felipe Oliver",
       "es": "Felipe Oliver"
     },
     "keywords": {
-      "en": ["comic", "graphic novel", "dream", "architecture", "redemption", "crime", "childhood"],
-      "pt": ["quadrinhos", "história em quadrinhos", "sonho", "arquitetura", "redenção", "crime", "infância"],
-      "es": ["cómics", "novela gráfica", "sueño", "arquitectura", "redención", "crimen", "infancia"]
+      "en": [
+        "comic",
+        "graphic novel",
+        "dream",
+        "architecture",
+        "redemption",
+        "crime",
+        "childhood"
+      ],
+      "pt": [
+        "quadrinhos",
+        "história em quadrinhos",
+        "sonho",
+        "arquitetura",
+        "redenção",
+        "crime",
+        "infância"
+      ],
+      "es": [
+        "cómics",
+        "novela gráfica",
+        "sueño",
+        "arquitectura",
+        "redención",
+        "crimen",
+        "infancia"
+      ]
+    }
+  },
+  {
+    "id": "almerinda",
+    "date": "2025-12-26",
+    "title": {
+      "pt": "Almerinda e o Segredo do Jardim",
+      "en": "Almerinda and the Secret of the Garden",
+      "es": "Almerinda y el Secreto del Jardín"
+    },
+    "src": [
+      "/hqs/Almerinda-1.jpg"
+    ],
+    "description": {
+      "pt": "Almerinda e o Segredo do Jardim",
+      "en": "Almerinda e o Segredo do Jardim",
+      "es": "Almerinda e o Segredo do Jardim"
+    },
+    "credits": {
+      "pt": "Arântia",
+      "en": "Arântia",
+      "es": "Arântia"
+    },
+    "keywords": {
+      "en": [
+        "comic"
+      ],
+      "pt": [
+        "quadrinhos"
+      ],
+      "es": [
+        "cómics"
+      ]
     }
   }
 ]

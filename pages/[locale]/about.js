@@ -8,7 +8,7 @@ export default function Sobre() {
   return (
     <>
       <Seo title={t("about_bar")} />
-      <section className="about-section mt-xl mb-xs">
+      <section className="about-section mt-xl mb-xl">
         <div className="avatar"></div>
         <section className="about-content">
           <h2>Arântia</h2>
