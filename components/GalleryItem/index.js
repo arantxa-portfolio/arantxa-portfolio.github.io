@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 export default function GalleryItem({ item, index, type, lang }) {
   const url = type === "illustrations" ? "/illustrations/" : "/hqs/";
   const thumb = type === "illustrations" ? item.src : item.src[0];
+  const title = type === "illustrations"? item.title[lang] : item.headline[lang]
   return (
     <Link className={styles.item} key={item.id} href={url + item.id}>
       <motion.div
@@ -17,7 +18,7 @@ export default function GalleryItem({ item, index, type, lang }) {
           src={thumb}
           width={360}
           height={360}
-          title={item.title[lang]}
+          title={title}
           alt={item.description[lang]}
           unoptimized
         />

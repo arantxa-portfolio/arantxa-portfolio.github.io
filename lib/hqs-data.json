@@ -6,6 +6,11 @@
       "pt": "Construindo um sonho",
       "es": "Construyendo un sueño"
     },
+    "headline": {
+      "pt": "Roteiro da HQ “Feliz 2095” na antologia “Favela do Futuro”, edição 12, da INKO.",
+      "es": "Guion del cómic «Feliz 2095» en la antología «Favela do Futuro», edición 12, de INKO.",
+      "en": "Script for the comic book “Feliz 2095” in the anthology “Favela do Futuro,” issue 12, published by INKO."
+    },
     "description": {
       "en": "After stealing a toy, a marginalized child finds the calling to become a future architect, but he will need to deal with a proposal from a local gang and leave the world of crime in order to pursue his dream.",
       "pt": "Após roubar um brinquedo, uma criança marginalizada encontra a vocação para se tornar um futuro arquiteto, porém ela precisará lidar com uma proposta de uma gangue local e sair do mundo do crime para poder perseguir o sonho.",
@@ -16,9 +21,9 @@
       "/hqs/construindo-um-sonho-1.png"
     ],
     "credits": {
-      "pt": "Felipe Oliver",
-      "en": "Felipe Oliver",
-      "es": "Felipe Oliver"
+      "pt": "Arte: Felipe Oliver",
+      "en": "Art: Felipe Oliver",
+      "es": "Arte: Felipe Oliver"
     },
     "keywords": {
       "en": [
@@ -53,6 +58,11 @@
   {
     "id": "almerinda",
     "date": "2025-12-26",
+    "headline": {
+      "pt": "Página da HQ “Almerinda e o Segredo do Jardim” na antologia Café Espacial com Leite, edição 01, da Revista Café Espacial.",
+      "en": "Page from the comic book “Almerinda e o Segredo do Jardim” (Almerinda and the Secret of the Garden) in the anthology Café Espacial com Leite, issue 01, from Café Espacial magazine.",
+      "es": "Página del cómic «Almerinda e o Segredo do Jardim» (Almerinda y el secreto del jardín) en la antología Café Espacial com Leite, edición 01, de la revista Café Espacial."
+    },
     "title": {
       "pt": "Almerinda e o Segredo do Jardim",
       "en": "Almerinda and the Secret of the Garden",
@@ -62,21 +72,22 @@
       "/hqs/Almerinda-1.jpg"
     ],
     "description": {
-      "pt": "Almerinda e o Segredo do Jardim",
-      "en": "Almerinda e o Segredo do Jardim",
-      "es": "Almerinda e o Segredo do Jardim"
+      "pt": "Após descobrir que precisa arrancar o primeiro dente de leite, uma criança decide se esconder no quintal de casa, determinada a adiar o inevitável. Porém, acaba se deparando com o misterioso sumiço de todas as pétalas do jardim. Ao investigar, ela descobre um segredo fantástico capaz de ajudá-la a superar seu maior medo.",
+      "en": "After discovering that she needs to have her first baby tooth pulled, a child decides to hide in the backyard, determined to postpone the inevitable. However, she ends up encountering the mysterious disappearance of all the petals in the garden. Upon investigating, she discovers a fantastic secret that can help her overcome her greatest fear.",
+      "es": "Después de descubrir que necesita sacarse su primer diente de leche, una niña decide esconderse en el patio de su casa, decidida a posponer lo inevitable. Sin embargo, se encuentra con la misteriosa desaparición de todas las pétalas del jardín. Al investigar, descubre un secreto fantástico que le ayudará a superar su mayor miedo."
     },
     "credits": {
-      "pt": "Arântia",
-      "en": "Arântia",
-      "es": "Arântia"
+      "pt": "Roteiro e Arte: Arântia",
+      "en": "Script and Art: Arântia",
+      "es": "Guion y arte: Arântia"
     },
     "keywords": {
       "en": [
         "comic"
       ],
       "pt": [
-        "quadrinhos"
+        "quadrinhos",
+        "café espacial"
       ],
       "es": [
         "cómics"
@@ -86,6 +97,11 @@
   {
     "id": "feliz-2095",
     "date": "2025-12-26",
+    "headline": {
+      "pt": "Roteiro da HQ “Feliz 2095” na antologia “Favela do Futuro”, edição 12, da INKO.",
+      "es": "Guion del cómic «Feliz 2095» en la antología «Favela do Futuro», edición 12, de INKO.",
+      "en": "Script for the comic book “Feliz 2095” in the anthology “Favela do Futuro,” issue 12, published by INKO."
+    },
     "title": {
       "pt": "Feliz 2095",
       "en": "Happy 2095",
@@ -95,14 +111,14 @@
       "/hqs/feliz-2095-1.jpg"
     ],
     "description": {
-      "pt": "Feliz 2095",
-      "en": "Feliz 2095",
-      "es": "Feliz 2095"
+      "pt": "Em uma comunidade, após um painel de LED que iria transmitir a contagem regressiva do Ano Novo dar defeito, uma técnica é chamada para fazer o conserto, porém ela precisará resolver o problema antes da virada do ano, a fim de poder participar das festividades.",
+      "en": "In a community, after an LED panel that was supposed to broadcast the New Year's countdown malfunctioned, a technician is called in to repair it, but she will need to solve the problem before midnight in order to participate in the festivities.",
+      "es": "En una comunidad, después de que un panel LED que iba a transmitir la cuenta atrás de Año Nuevo se estropeara, se llama a una técnica para que lo repare, pero ella tendrá que resolver el problema antes de que llegue el año nuevo para poder participar en las festividades."
     },
     "credits": {
-      "pt": "Arântia",
-      "en": "Arântia",
-      "es": "Arântia"
+      "pt": "Desenho: Lázaro Willian, Arte-Final: Mateus Campos, Cinzas e Balões: Leandro Perdizo",
+      "en": "Drawing: Lázaro Willian, Final Artwork: Mateus Campos, Gray and Balloons: Leandro Perdizo",
+      "es": "Diseño: Lázaro Willian, Arte final: Mateus Campos, Cenizas y globos: Leandro Perdizo"
     },
     "keywords": {
       "en": [

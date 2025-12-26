@@ -82,12 +82,14 @@ export default function HQDetail({ item }) {
               <i className="bi bi-arrow-left-circle"></i> {t("back")}
             </Link>
             <h2 className="text-thicker">{item.title[lang]}</h2>
-            <p className="text-thinner">{item.description[lang]}</p>
+            <p className="text-thicker mb-md">{item.headline[lang]}</p>
+            <p className="text-thinner opacity-8">{item.description[lang]}</p>
             <TimeAgo date={item.date} />
             <hr />
-            <small>
-              <b>{`${t("credits")}: `}</b>
-              <span className="text-thinner">{item.credits[lang]}</span>
+            <small className="credits-column">
+              {item.credits[lang].split(", ").map((c) => <span>
+                {c}
+              </span>)}
             </small>
           </div>
         </div>

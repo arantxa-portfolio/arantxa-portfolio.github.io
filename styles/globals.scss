@@ -107,3 +107,13 @@ hr {
     padding: 16px;
   }
 }
+
+.credits-column {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.opacity-8 {
+  opacity: 0.8;
+}
