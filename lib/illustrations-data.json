@@ -32,14 +32,14 @@
     "src": "/illustrations/cenario.jpg",
     "date": "2025-12-26",
     "title": {
-      "pt": "Cenário cidade",
-      "en": "City scenery",
-      "es": "Escenario urbano"
+      "pt": "Cidade",
+      "en": "City ",
+      "es": "Ciudad."
     },
     "description": {
-      "pt": "Cenário cidade",
-      "en": "City scenery",
-      "es": "Escenario urbano"
+      "pt": "Estudo de cenários.",
+      "en": "Scenario study.",
+      "es": "Estudio de escenario."
     },
     "keywords": {
       "pt": [
