@@ -18,16 +18,6 @@ export function Footer() {
             <i className="bi bi-instagram"></i>
           </a>
         </span>
-        <span>
-          <a
-            className={styles.socialItem}
-            href="mailto:example@email.com"
-            target="_blank"
-            title={t('social_mail')}
-          >
-            <i className="bi bi-envelope-fill"></i>
-          </a>
-        </span>
       </section>
       <hr />
       <p className={styles.copyright}>
