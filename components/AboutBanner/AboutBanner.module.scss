@@ -1,6 +1,8 @@
 .banner {
   background-color: $primary-white;
   height: 200px;
+  background-image: url(/banner-about.png);
+  background-position: center;
 }
 
 @media screen and (max-width: 1280px) {
