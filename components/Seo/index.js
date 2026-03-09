@@ -19,7 +19,7 @@ export default function Seo({
 
   return (
     <Head>
-      <title>{`${title} | ${t('about_title')}`}</title>
+      <title>{`${title}`}</title>
       <meta name="title" content={title} />
       <meta name="keywords" content={keywords || t("keywords")} />
       <meta name="author" content="Arântia" />
