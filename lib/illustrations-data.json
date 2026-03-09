@@ -79,5 +79,31 @@
         "trabajo"
       ]
     }
+  },
+  {
+    "id": "passaro",
+    "title": {
+      "pt": "Pássaro",
+      "en": "Bird",
+      "es": "Passaro"
+    },
+    "description": {
+      "pt": "Teste",
+      "en": "Teste",
+      "es": "Teste"
+    },
+    "keywords": {
+      "pt": [
+        "Teste"
+      ],
+      "en": [
+        "Teste"
+      ],
+      "es": [
+        "Teste"
+      ]
+    },
+    "date": "2026-03-09",
+    "src": "/illustrations/passaro.webp"
   }
 ]
