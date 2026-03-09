@@ -131,5 +131,43 @@
         "cómics"
       ]
     }
+  },
+  {
+    "id": "testhq",
+    "title": {
+      "pt": "TestHQ",
+      "en": "HQTest",
+      "es": "TesteHQ"
+    },
+    "headline": {
+      "pt": "Exemplo de teste",
+      "en": "Exemplo de teste",
+      "es": "Exemplo de teste"
+    },
+    "description": {
+      "pt": "Exemplo de teste",
+      "en": "Exemplo de teste",
+      "es": "Exemplo de teste"
+    },
+    "credits": {
+      "pt": "Exemplo de teste",
+      "en": "Exemplo de teste",
+      "es": "Exemplo de teste"
+    },
+    "keywords": {
+      "pt": [
+        "teste"
+      ],
+      "en": [
+        "teste"
+      ],
+      "es": [
+        "teste"
+      ]
+    },
+    "date": "2026-03-09",
+    "src": [
+      "/hqs/testhq.webp"
+    ]
   }
 ]
