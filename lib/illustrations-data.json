@@ -79,5 +79,32 @@
         "trabajo"
       ]
     }
+  },
+  {
+    "id": "passaro",
+    "title": {
+      "pt": "Passaro",
+      "en": "Passaro",
+      "es": "Passaro"
+    },
+    "description": {
+      "pt": "Passaro",
+      "en": "Passaro",
+      "es": "Passaro"
+    },
+    "keywords": {
+      "pt": [
+        "Passaro"
+      ],
+      "en": [
+        "Passaro"
+      ],
+      "es": [
+        "Passaro"
+      ]
+    },
+    "date": "2026-03-09",
+    "isDraft": false,
+    "src": "/illustrations/passaro.webp"
   }
 ]
