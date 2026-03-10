@@ -14,8 +14,9 @@ const baseUrl =
 
 export async function getStaticPaths() {
   const locales = ["en", "pt", "es"];
+  const filteredIllustrations = illustrations.filter((il) => !il.isDraft);
   const paths = locales.flatMap((locale) =>
-    illustrations.map((il) => ({
+    filteredIllustrations.map((il) => ({
       params: { locale, id: il.id },
     }))
   );

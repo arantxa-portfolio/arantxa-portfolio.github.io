@@ -25,6 +25,7 @@
       ]
     },
     "date": "2025-12-13",
+    "isDraft": false,
     "src": "/illustrations/mascaras.jpg"
   },
   {
@@ -52,7 +53,8 @@
       "es": [
         "estudio"
       ]
-    }
+    },
+    "isDraft": false
   },
   {
     "id": "avatar",
@@ -78,7 +80,8 @@
       "es": [
         "trabajo"
       ]
-    }
+    },
+    "isDraft": false
   },
   {
     "id": "passaro",

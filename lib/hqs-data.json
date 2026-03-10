@@ -1,6 +1,7 @@
 [
   {
     "id": "construindo-um-sonho",
+    "isDraft": false,
     "title": {
       "en": "Building a dream",
       "pt": "Construindo um sonho",
@@ -57,6 +58,7 @@
   },
   {
     "id": "almerinda",
+    "isDraft": false,
     "date": "2025-12-26",
     "headline": {
       "pt": "Página da HQ “Almerinda e o Segredo do Jardim” na antologia Café Espacial com Leite, edição 01, da Revista Café Espacial.",
@@ -96,6 +98,7 @@
   },
   {
     "id": "feliz-2095",
+    "isDraft": false,
     "date": "2025-12-26",
     "headline": {
       "pt": "Roteiro da HQ “Feliz 2095” na antologia “Favela do Futuro”, edição 12, da INKO.",

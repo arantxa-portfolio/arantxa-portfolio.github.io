@@ -15,8 +15,9 @@ const baseUrl =
 
 export async function getStaticPaths() {
   const locales = ["en", "pt", "es"];
+  const filteredHqs = hqs.filter((hq) => !hq.isDraft);
   const paths = locales.flatMap((locale) =>
-    hqs.map((hq) => ({
+    filteredHqs.map((hq) => ({
       params: { locale, id: hq.id },
     }))
   );

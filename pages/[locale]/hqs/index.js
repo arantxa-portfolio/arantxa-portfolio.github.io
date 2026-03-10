@@ -18,10 +18,11 @@ export function getStaticPaths() {
 }
 
 export async function getStaticProps() {
-  hqs.sort((a, b) => new Date(b.date) - new Date(a.date));
+  const filteredHqs = hqs.filter((hq) => !hq.isDraft);
+  filteredHqs.sort((a, b) => new Date(b.date) - new Date(a.date));
   return {
     props: {
-      hqs,
+      hqs: filteredHqs,
     },
   };
 }

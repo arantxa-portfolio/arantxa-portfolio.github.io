@@ -9,10 +9,11 @@ export function getStaticPaths() {
 }
 
 export async function getStaticProps() {
-  illustrations.sort((a, b) => new Date(b.date) - new Date(a.date));
+  const filteredIllustrations = illustrations.filter((il) => !il.isDraft);
+  filteredIllustrations.sort((a, b) => new Date(b.date) - new Date(a.date));
   return {
     props: {
-      illustrations,
+      illustrations: filteredIllustrations,
     },
   };
 }
