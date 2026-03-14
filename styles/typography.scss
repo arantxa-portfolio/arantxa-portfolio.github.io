@@ -13,29 +13,35 @@ h5,
 h6 {
   margin: 16px 0;
   font-family: $font-family;
-  line-height: $line-height;
-  font-weight: $font-weight;
+  line-height: $line-height-display;
+  font-weight: normal;
   color: $primary-gray;
+  letter-spacing: $letter-spacing-display;
 }
 
 h1 {
   font-size: $font-size-h1;
+  text-shadow: 0.5px 0 0 currentColor, -0.2px 0 0 currentColor; /* Stronger Faux Bold */
 }
 
 h2 {
   font-size: $font-size-h2;
+  text-shadow: 0.4px 0 0 currentColor; 
 }
 
 h3 {
   font-size: $font-size-h3;
+  text-shadow: 0.3px 0 0 currentColor;
 }
 
 h4 {
   font-size: $font-size-h4;
+  text-shadow: 0.2px 0 0 currentColor;
 }
 
 h5 {
   font-size: $font-size-h5;
+  text-shadow: 0.1px 0 0 currentColor;
 }
 
 h6 {
@@ -45,6 +51,8 @@ h6 {
 p {
   line-height: $line-height;
   font-size: 1.125rem;
+  letter-spacing: $letter-spacing-standard;
+  color: rgba($primary-gray, 0.9);
 }
 
 button {
