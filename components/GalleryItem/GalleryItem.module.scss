@@ -6,33 +6,35 @@
     transition: filter 0.3s ease-in-out;
   }
 
- p {
+  p {
     color: $primary-white;
     position: absolute;
     bottom: 0;
     left: 0;
     text-align: center;
     width: 100%;
-    background-color: $primary-red;
+    background-color: rgba($primary-red, 0.9);
     margin: 0;
-    padding: 8px;
+    padding: 12px;
     font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0.2px 0 0 currentColor; /* Subtle weight */
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
   }
 
   &:hover {
-    transform: scale(1.1, 1.1);
-    z-index: 100;
+    transform: scale(1.05);
+    z-index: 10;
     p {
       opacity: 1;
     }
 
     img {
-      filter: brightness(75%);
+      filter: brightness(80%);
       animation-name: thumb-scroll;
-      animation-delay: 400ms;
-      animation-duration: 2.5s;
+      animation-delay: 500ms;
+      animation-duration: 3s;
       animation-iteration-count: infinite;
       animation-direction: normal;
       animation-timing-function: linear;
