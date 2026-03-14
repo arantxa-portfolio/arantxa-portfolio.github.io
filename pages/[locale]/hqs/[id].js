@@ -88,7 +88,7 @@ export default function HQDetail({ item }) {
             <TimeAgo date={item.date} />
             <hr />
             <small className="credits-column">
-              {item.credits[lang].split(", ").map((c) => <span>
+              {item.credits[lang].split(", ").map((c) => <span key={c}>
                 {c}
               </span>)}
             </small>
