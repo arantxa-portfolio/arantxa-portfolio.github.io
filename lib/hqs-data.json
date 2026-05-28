@@ -134,5 +134,52 @@
         "cómics"
       ]
     }
+  },
+  {
+    "id": "retrato-de-um-comeco",
+    "title": {
+      "pt": "Retrato de um começo",
+      "en": "Retrato de um começo",
+      "es": "Retrato de um começo"
+    },
+    "headline": {
+      "pt": "Roteiro da HQ “Retrato de um começo” na antologia “Carnaval de Rua”, edição 14, da INKO.",
+      "en": "Roteiro da HQ “Retrato de um começo” na antologia “Carnaval de Rua”, edição 14, da INKO.",
+      "es": "Roteiro da HQ “Retrato de um começo” na antologia “Carnaval de Rua”, edição 14, da INKO."
+    },
+    "description": {
+      "pt": "Ao fotografar o carnaval, um homem decide entregar uma das fotos para uma mulher, que chamou sua atenção no bloco, mas descobre que a mesma também está fotografando o local e que aquela aproximação pode revelar algo mais especial.\n",
+      "en": "Ao fotografar o carnaval, um homem decide entregar uma das fotos para uma mulher, que chamou sua atenção no bloco, mas descobre que a mesma também está fotografando o local e que aquela aproximação pode revelar algo mais especial.\n",
+      "es": "Ao fotografar o carnaval, um homem decide entregar uma das fotos para uma mulher, que chamou sua atenção no bloco, mas descobre que a mesma também está fotografando o local e que aquela aproximação pode revelar algo mais especial.\n"
+    },
+    "credits": {
+      "pt": "Desenho: Calebe Ferreira",
+      "en": "Desenho: Calebe Ferreira",
+      "es": "Desenho: Calebe Ferreira"
+    },
+    "keywords": {
+      "pt": [
+        "HQ",
+        "Inko",
+        "Carnaval"
+      ],
+      "en": [
+        "HQ",
+        "Inko",
+        "Carnaval"
+      ],
+      "es": [
+        "HQ",
+        "Inko",
+        "Carnaval"
+      ]
+    },
+    "date": "2026-05-28",
+    "isDraft": false,
+    "src": [
+      "/hqs/retrato-de-um-comeco-1.jpg",
+      "/hqs/retrato-de-um-comeco-2.jpg",
+      "/hqs/retrato-de-um-comeco-3.jpg"
+    ]
   }
 ]
